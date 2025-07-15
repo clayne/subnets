@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-04-23"
+lastupdated: "2025-07-15"
 
 keywords:
 
@@ -12,7 +12,7 @@ subcollection: subnets
 
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQs
+# FAQ
 {: #faq}
 
 Have a question about subnets or global IPs? Review frequently asked questions, which provide answers to provisioning concerns, application access, and other common inquiries.
