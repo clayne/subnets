@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-07-15"
+lastupdated: "2025-07-25"
 
 keywords:
 
@@ -121,3 +121,9 @@ Because of incompatibility between IP address styles, you cannot use IPv4 and IP
 {: faq}
 
 Yes. When transferring an IP address from one server to another, make sure that a gratuitous ARP packet is sent. This action allows {{site.data.keyword.cloud_notm}}'s routers to update the ARP entry and forward traffic to the correct server. Not doing so might result in up to a 4-hour delay in the new server receiving traffic for the transferred address.
+
+## Can I change the primary IP address that was assigned to my server during provisioning?
+{: #change-primary-ip-address}
+{: faq}
+
+No, it is not possible to change the primary IP address that was assigned to a server during provisioning. The only way to change the primary IP address is to cancel and re-order the server.
